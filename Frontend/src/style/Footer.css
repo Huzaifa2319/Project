@@ -1,0 +1,27 @@
+.footer {
+  background-color: purple !important;
+  color: #cecece;
+  font-size: 15px;
+  padding: 30px 20px;
+}
+.footer p {
+  color: darkgray;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  min-width: 250px;
+  margin-bottom: 50px;
+  margin: 0.2in;
+}
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 12px 0;
+}
+.col-3 ul {
+  list-style: none;
+}
