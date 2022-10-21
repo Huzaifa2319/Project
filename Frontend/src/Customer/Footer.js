@@ -3,51 +3,55 @@ import "../style/Footer.css";
 import logo from "../images/logo.jpg";
 const Footer = () => {
   return (
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <img src={logo} width="200px" />
+    <>
+      <div id="full">
+        <span className="container">
+          <div className="col1">
+            <img src={logo} width="200px" alt="pic not found" />
           </div>
-          <div class="col-2">
+
+          <div className="col2">
             <h1>ABOUT US</h1>
             <p>
               Matbakh <br />
-              is an online store where you can buy hundreds of books. Books od x
-              every genre are available at low costs.
+              Going to a restaurant is one of my keenest pleasures. ... “There
+              is no love sincerer than the love of food.”
             </p>
           </div>
-          <div class="col-3">
+
+          <div className="col3">
             <h1>CONTACT</h1>
-            <p>
-              ISLAMABAD H13-markaz near Famous Fast Food
-              <h3>phone number</h3>
-              <ul>
-                <li>03106565378</li>
-                <li>03136900427</li>
-                <li>03696969696</li>
-              </ul>
-            </p>
+            <p>ISLAMABAD H13-markaz near Famous Fast Food</p>
           </div>
-          <div class="col-4">
-            <h1>Developers</h1>
-            <p>
-              <ul>
-                <li>Huzaifa Anjum</li>
-                <li>Khuzaima Haroon</li>
-                <li>Hammad Aslam</li>
-                <li>Fahad Bajwa</li>
-                <li>Umair Farooq</li>
-              </ul>
-            </p>
+
+          <div className="col4">
+            <h1>PHONE#</h1>
+            <ul>
+              <li>03106565378</li>
+              <li>03136900427</li>
+              <li>03696969696</li>
+            </ul>
           </div>
-        </div>
+
+          <div className="col5">
+            <h1>DEVELOPERS</h1>
+            <ul>
+              <li>Huzaifa Anjum</li>
+              <li>Khuzaima Haroon</li>
+              <li>Hammad Aslam</li>
+              <li>Fahad Bajwa</li>
+              <li>Umair Farooq</li>
+            </ul>
+          </div>
+        </span>
+
         <hr />
-        <p class="copyright">
-          Copyright 2020 - Software Construction and Development Project
-        </p>
+
+        <div className="copy">
+          <p>Copyright 2022 - Software Construction and Development Project</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

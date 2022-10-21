@@ -1,27 +1,50 @@
-.footer {
-  background-color: purple !important;
-  color: #cecece;
+.container {
+  display: flex;
+  background-color: rgb(194, 142, 194) !important;
+  color: #474545;
   font-size: 15px;
-  padding: 30px 20px;
-}
-.footer p {
-  color: darkgray;
+  padding: 20px 15px;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4 {
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
   min-width: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin: 0.2in;
 }
-.footer hr {
+.container hr {
   border: none;
-  background: #b5b5b5;
+  background: #474545;
   height: 1px;
   margin: 12px 0;
 }
-.col-3 ul {
+.col4 ul {
   list-style: none;
+  padding: 3px;
 }
+
+/* #full p {
+  text-align: center;
+} */
+
+.col2,
+.col3,
+.copy {
+  text-align: center;
+}
+
+#full {
+  background-color: rgb(194, 142, 194);
+  color: #474545;
+  /* text-align: center; */
+}
+.copy {
+  height: 0.7in;
+}
+/* 
+.container p {
+  color: #a9a9a9;
+} */

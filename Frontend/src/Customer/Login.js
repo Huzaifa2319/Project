@@ -3,15 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/login.css";
 import "../style/sidebar.css";
 import { Link } from "react-router-dom";
-import gumaan from "../images/gumaan.jpg";
-
-// const Side=()=>{
-//   return(
-//       <>
-
-//       </>
-//   );
-// }
+// import gumaan from "../images/gumaan.jpg";
 
 const Login = () => {
   return (
@@ -76,7 +68,7 @@ const Login = () => {
                   Don't have an account? <Link to="/Signup">signup</Link>
                 </div>
                 <div className="d-flex justify-content-center">
-                  <a href="#">Forgot your password?</a>
+                  <Link href="#">Forgot your password?</Link>
                 </div>
               </div>
             </div>
