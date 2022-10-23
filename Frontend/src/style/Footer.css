@@ -1,7 +1,13 @@
 .container {
   display: flex;
-  background-color: rgb(194, 142, 194) !important;
-  color: #474545;
+
+  background: #b6b6b6;
+
+  /* background-color: rgb(194, 142, 194) !important; */
+  /* color: #474545; */
+  /* color: #ff497c; */
+  color: white;
+
   font-size: 15px;
   padding: 20px 15px;
 }
@@ -15,6 +21,11 @@
   margin-bottom: 30px;
   margin: 0.2in;
 }
+
+.container h1 {
+  color: white;
+}
+
 .container hr {
   border: none;
   background: #474545;
@@ -37,8 +48,10 @@
 }
 
 #full {
-  background-color: rgb(194, 142, 194);
-  color: #474545;
+  background: #b6b6b6;
+  color: white;
+  /* background-color: rgb(194, 142, 194); */
+  /* color: #ff497c; */
   /* text-align: center; */
 }
 .copy {

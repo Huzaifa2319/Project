@@ -5,7 +5,6 @@ import Signup from "./Customer/Signup";
 import Main from "./Customer/Main";
 import Menu from "./Customer/Menu";
 import { Routes, Route } from "react-router-dom";
-
 const Home = () => {
   return (
     <>

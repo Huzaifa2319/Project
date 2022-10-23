@@ -3,7 +3,7 @@ import Items from "./Items";
 import Dtems from "../Dishes";
 
 function show(obj) {
-  console.log(obj);
+  // console.log(obj);
   return (
     <Items ipath={obj.ipath} des={obj.des} name={obj.name} price={obj.price} />
   );

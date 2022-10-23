@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Items = (props) => {
   return (
     <>
+      {/* <div className="itemcard"> */}
       <div className="card" style={{ width: "18rem" }}>
         <img src={props.ipath} className="card-img-top" alt="Pic not found" />
         <div className="card-body body">
@@ -17,6 +18,7 @@ const Items = (props) => {
           </Link>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };

@@ -6,16 +6,29 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 import Main from "./Main";
 import { Routes, Route } from "react-router-dom";
-
+import ItemDetails from "./ItemDetails";
+// import Items from "./Items";
+import ItemComments from "./ItemComments";
+import Aboutus from "./Aboutus";
 const CustomerPannel = () => {
   return (
     <>
+      {/* <Items /> */}
+      {/* <ItemDetails /> */}
+      {/* <h1>hahhahaha</h1> */}
       <Header />
+
+      <ItemDetails />
+      {/* <ItemComments /> */}
+      {/* <Aboutus /> */}
+      <Footer />
+
+      {/* <Header />
       <Routes>
         <Route path="a" element={<Main />} />
         <Route path="b" element={<Menu />} />
       </Routes>
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
