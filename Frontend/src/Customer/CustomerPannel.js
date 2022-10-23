@@ -16,6 +16,8 @@ const CustomerPannel = () => {
       {/* <Items /> */}
       {/* <ItemDetails /> */}
       {/* <h1>hahhahaha</h1> */}
+
+      {/* Routes abhi set krny hain */}
       <Header />
 
       <ItemDetails />
