@@ -1,10 +1,13 @@
-import Home from "./Home";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <div className="App">
+      <header className="App-header">
+        <h1>Restaurant Management System</h1>
+      </header>
+    </div>
   );
 }
 
