@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Customer/Footer";
+import Header from "./Customer/Header";
+import RiderHome from "./RiderHome";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Restaurant Management System</h1>
-      </header>
-    </div>
+    <>
+      <RiderHome />
+      <Header />
+      <Footer />
+    </>
   );
 }
 
