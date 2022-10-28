@@ -5,9 +5,12 @@ import Signup from "./Customer/Signup";
 import Main from "./Customer/Main";
 import Menu from "./Customer/Menu";
 import { Routes, Route } from "react-router-dom";
+import ViewFeedbacks from "./Admin/ViewFeedbacks";
 const Home = () => {
   return (
     <>
+      {/* <ViewFeedbacks /> */}
+
       {/* <Main /> */}
       <Routes>
         <Route path="/Signup" element={<Signup />} />
