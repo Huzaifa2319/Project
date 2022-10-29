@@ -1,14 +1,23 @@
-const express = require("express");
+
+
+import express from 'express';
+import dotenv from 'dotenv';
+import Connection  from './Database/db.js';
+import Routes from './Routes/routes.js'
+import cors from '.cors'
+
 const app = express();
 
-const port = 3000;
+app.use('/', Routes);
+dotenv.config();
+app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-app.get("/a", (req, res) => {
-  res.send("Hello Universe");
-});
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+const Port = 8000;
+
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
+
+
+Connection(username, password);
+
+app.listen(Port, () => console.log(`Server is running successfully on port ${Port}`))
